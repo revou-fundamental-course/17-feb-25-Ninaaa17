@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Projek Nina</title>
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
+
+    <header>
+        <h1>Go Travel Agent's</h1>
+        <p>Your happiness is our happiness</p>
+    </header>
+
+    <main>
+        <section class="testimonial">
+            <div class="image-placeholder">
+                <img src="./assets/images/NF_green.png" alt="NF_green">
+            </div>
+            <blockquote>
+                "Liburan jadi menyenangkan bersama Travel Agentku."
+            </blockquote>
+            <p class="author">Florence Hughes</p>
+            <p class="location">Ibu Rumah Tangga, 28</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="First and last name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+
+                <label for="interest">What are you interested in?</label>
+                <select id="interest">
+                    <option value="">Select option</option>
+                    <option value="tours">Tours</option>
+                    <option value="hotels">Hotels</option>
+                    <option value="flights">Flights</option>
+                </select>
+
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li><strong>1.</strong> Your first feature, written in the form of a benefit statement.</li>
+                <li><strong>2.</strong> Your second feature, written in the form of a benefit statement.</li>
+                <li><strong>3.</strong> Your third feature, written in the form of a benefit statement.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
